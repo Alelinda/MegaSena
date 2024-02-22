@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/textura\ trevo.avif) ;
+  /*background-repeat: */;
+  color: white;
+}
+#trevo{
+  width: 55px;
+}
+
+.header{
+  background-color: rgb(55, 9, 128);
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+
+  /*alinhamento horizontal*/
+  justify-content: space-between;
+  
+  /*alinhamento vertical*/
+  align-items: center;
+
+  /*espaçamento interno */
+  padding: 20px;
+
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-shadow: 1px 2px 2px rgb(0, 0, 0);
+
+}
+
+.subtitle{
+  padding: 20px;
+  align-self: flex-start;
+  max-width: 750px;
+  text-align: start;
+  font-size: 18px;
+  color: rgb(250, 250, 250);
+  text-shadow: 1px 2px 2px black;
+}
+
+ul{
+  max-width: 750px ;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-family: 'Franklin Gothic Medium','Arial Narrow','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: blueviolet;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 48px;
+}
